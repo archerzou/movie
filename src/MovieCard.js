@@ -7,9 +7,9 @@ const MovieCard = ({movie}) => (
             alt={movie.title+ ' poster'}
         />
         <div className="card--content">
-            <h3 className="card--title">{movie.title}</h3>
-            <h4>上映日期： {movie.release_date}</h4>
-            <h4>评分： {movie.vote_average}</h4>
+            <h1 className="card--title">{movie.title}</h1>
+            <h2>上映日期： {movie.release_date}</h2>
+            <h2>评分： {movie.vote_average}</h2>
             <p className="card--desc">{movie.overview}</p>
         </div>              
     </div>

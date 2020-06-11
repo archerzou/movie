@@ -37,7 +37,9 @@ const SearchMovie = (props) => {
                     onChange={handleChange}
                     value={query}  
                 />
-                <button className="button" type="submit">搜！！！</button>
+                <button className="button" type="submit">
+                    搜！！！
+                </button>
             </form>
             <div className="card-list">
                 {movies.filter(movie => movie.poster_path).map(movie=> (

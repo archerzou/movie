@@ -9,8 +9,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(244,244,244);
-  color:#233;
+  background-color: #3a4f5b;
+  color: #fff;
   font-family: 'Ma Shan Zheng', cursive;
 }
 
@@ -22,6 +22,6 @@ small {
   font-size: 1.2rem;
 }
 
-h4 {
+h2 {
   text-align: center;
 }
